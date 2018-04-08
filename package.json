@@ -1,12 +1,13 @@
 {
-  "name": "play",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "query-string": "^5.0.0",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
-    "react-scripts": "1.1.4"
+    "query-string": "^6.0.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-scripts": "1.1.3",
+    "spotify-web-api-js": "0.22.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -15,7 +16,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "husky": "^0.14.3",
-    "lint-staged": "^7.0.4"
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2"
   }
 }
